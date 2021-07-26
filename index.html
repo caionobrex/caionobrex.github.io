@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- Main Css -->
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<!-- EzToast Css -->
+	<link rel="stylesheet" type="text/css" href="./css/toast.css">
+	<!-- Material Icons From Materialize -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/9f439e7598.js" crossorigin="anonymous"></script>
+	<title>Caio Nobre - Official Portfolio</title>
+</head>
+<body>
+	<section class="hero">
+		<header class="header">
+			<div class="header__logo-box">
+				<a href="/" class="header__logo">Caio.N</a>
+			</div>
+			<ul class="header__list">
+				<li class="header__list-item"><a href="#about" class="header__link">About</a></li>
+				<li class="header__list-item"><a href="#projects" class="header__link">Projects</a></li>
+				<li class="header__list-item"><a href="#contact" class="header__link">Contacts</a></li>
+			</ul>
+			<i class="material-icons header__menu" id="mobile-menu-btn">menu</i>
+		</header>
+
+		<div class="hero__left">
+			<h1>
+				Hello, <br>
+				I am <span>Caio</span> <br>
+				Web Developer
+			</h1>
+
+			<ul class="hero__social-medias">
+				<li class="hero__social-media">
+					<a href="https://www.instagram.com/caioxdev" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li class="hero__social-media">
+					<a href="https://www.youtube.com/channel/UCUdB116PJK87D8CME0i31LQ" target="_blank">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li class="hero__social-media">
+					<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+				</li>
+				<li class="hero__social-media">
+					<a href="https://github.com/caionobrex" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="hero__right">
+			<div class="hero__img-box">
+				<img src="./images/me.jpg" alt="Caio Nobre" class="hero__img">
+			</div>
+		</div>
+
+		<div class="hero__wave-box">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="hero__svg">
+			  <path fill="#2196f3" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,154.7C672,139,768,149,864,165.3C960,181,1056,203,1152,181.3C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+			</svg>
+		</div>
+	</section>
+
+	<a name="projects"></a>
+	<section class="projects-section">
+		<h2 class="secondary-heading center">My Projects</h2>
+
+		<div class="projects-section__grid">
+			<div class="project-card">
+				<div class="project-card__img-box">
+					<picture>
+						<source media="(max-width: 600px)" srcset="./images/project3-mobile.png" class="project-card__img">
+						<source media="(max-width: 992px)" srcset="./images/project3-medium.png" class="project-card__img">
+						<img src="./images/project3.png" class="project-card__img">
+					</picture>
+				</div>
+				<div class="project-card__content">
+					<span class="project-card__title">Aquiles Leather Goods</span>
+					<ul class="project-card__list">
+						<li class="project-card__list-item">HTML,</li>
+						<li class="project-card__list-item">SASS</li>
+					</ul>
+					<a href="/projects/aquiles/index.html" target="_blank" class="btn">
+						Visit Project &rarr;
+					</a>
+				</div>
+			</div>
+			<div class="project-card">
+				<div class="project-card__img-box">
+					<picture>
+						<source media="(max-width: 600px)" srcset="./images/project4-mobile.png" class="project-card__img">
+						<source media="(max-width: 992px)" srcset="./images/project4-medium.png" class="project-card__img">
+						<img src="./images/project4.png" class="project-card__img">
+					</picture>
+				</div>
+				<div class="project-card__content">
+					<span class="project-card__title">Minecraft MarketPlace</span>
+					<ul class="project-card__list">
+						<li class="project-card__list-item">PHP,</li>
+						<li class="project-card__list-item">SASS,</li>
+						<li class="project-card__list-item">Materialize</li>
+					</ul>
+					<a href="/projects/minecraft-marketplace/index.php" target="_blank" class="btn">
+						Visit Project &rarr;
+					</a>
+				</div>
+			</div>
+			<div class="project-card">
+				<div class="project-card__img-box">
+					<picture>
+						<source media="(max-width: 600px)" srcset="./images/project5.png" class="project-card__img">
+						<source media="(max-width: 992px)" srcset="./images/project5.png" class="project-card__img">
+						<img src="./images/project5.png" class="project-card__img">
+					</picture>
+				</div>
+				<div class="project-card__content">
+					<span class="project-card__title">Simples App De Gerenciamento De Vendas</span>
+					<ul class="project-card__list">
+						<li class="project-card__list-item">NodeJS,</li>
+						<li class="project-card__list-item">ExpressJS,</li>
+						<li class="project-card__list-item">MongoDB,</li>
+						<li class="project-card__list-item">ReactJS,</li>
+						<li class="project-card__list-item">Chakra UI</li>
+					</ul>
+					<a href="#" target="_blank" class="btn">Visit Project &rarr;</a>
+				</div>
+			</div>
+			<div class="project-card">
+				<div class="project-card__img-box">
+					<picture>
+						<source media="(max-width: 600px)" srcset="./images/project2-mobile.png">
+						<source media="(max-width: 992px)" srcset="./images/project2-medium.png" class="project-card__img">
+						<img src="./images/project2.png" class="project-card__img">
+					</picture>
+				</div>
+				<div class="project-card__content">
+					<span class="project-card__title">Esse Portfolio</span>
+					<ul class="project-card__list">
+						<li class="project-card__list-item">PHP,</li>
+						<li class="project-card__list-item">SASS,</li>
+						<li class="project-card__list-item">JavaScript Vanilla</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<a name="about"></a>
+	<section class="about">
+		<div class="container">
+			<h2 class="grey-text-lighten-5 center">About me</h2>
+			<div class="about__video-container">
+				<iframe width="100%" height="450" src="https://www.youtube.com/embed/M26OB2P_5Os?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<p>
+				Hi, my name is Caio and I built this portfolio to show you my skills. So let me
+				tell you about me a little more. Well, I started to code when I was 16 years old (today I am 20).
+				I started to code because I wanted to develop stuff for minecraft (so my frist language was Java). After a while I started to get instered on the web so I started to learn languages that were related to it. "Languages" like HTML, CSS, JS, PHP and some databases. Today, I mainly work with JavaScript, NodeJS,
+				NextJS and MongoDB. By the way, This combitination is very well known when you use NodeJS to build apps.
+			</p>
+		</div>
+	</section>
+
+	<a name="contact"></a>
+	<section class="contact">
+		<div class="container">
+			<h2 class="secondary-heading center">Contact me</h2>
+
+			<header class="contact__header">
+				<div class="center">
+					<i class="material-icons">email</i>
+					<p>caionobrex@gmail.com</p>
+				</div>
+				<div class="center">
+					<i class="material-icons">phone</i>
+					<p>+55 (85) 99444-9201</p>
+				</div>
+				<div class="center">
+					<i class="material-icons">location_on</i>
+					<p>Fortaleza - Brasil</p>
+				</div>
+			</header>
+
+			<main class="contact__main">
+				<ul id="error-list" class="hide"></ul>
+				<form>
+					<div class="input-field">
+						<label class="grey-text-darken-2">Your Name</label>
+						<input type="text" name="name" id="input_name">
+					</div>
+					<div class="input-field">
+						<label class="grey-text-darken-2">Your Email</label>
+						<input type="email" name="email" id="input_email">
+					</div>
+					<div class="input-field">
+						<label class="grey-text-darken-2">Your Message</label>
+						<input type="text" name="message" id="input_message">
+					</div>
+					<div>
+						<button type="submit" class="button blue-darken-3" id="submit-btn">
+							Send <i class="material-icons">send</i>
+						</button>
+						<i
+							class="spin material-icons hide grey-text-darken-4"
+							id="submit-spinner"
+							style="font-size: 4rem;"
+						>
+							sync
+						</i>
+					</div>
+				</form>
+			</main>
+
+			<footer class="contact__footer">
+				<p class="center grey-text-darken-4">
+					Feel free to contact me on any social media. It will be a honor to talk to you. Thank you so much S2.
+				</p>
+			</footer>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__content">
+			<h5 class="white-text">Contact Me</h5>
+
+			<ul class="footer__list">
+				<li class="footer__list-item">
+					<a href="https://www.instagram.com/caioxdev/" target="_blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li class="footer__list-item">
+					<a href="https://www.youtube.com/channel/UCUdB116PJK87D8CME0i31LQ" target="_blank">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li class="footer__list-item">
+					<a href="#" target="_blank">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+				</li>
+				<li class="footer__list-item">
+					<a href="https://github.com/caionobrex" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer__copyright">
+			<i class="material-icons">code</i> by Caio Nobre
+		</div>
+	</footer>
+
+	<div class="mobile-nav">
+		<i class="material-icons mobile-nav__close-btn">close</i>
+		<ul class="mobile-nav__list">
+			<li class="mobile-nav__list-item"><a href="#">Sobre</a></li>
+			<li class="mobile-nav__list-item"><a href="#">Projetos</a></li>
+			<li class="mobile-nav__list-item"><a href="#">Contatos</a></li>
+		</ul>
+	</div>
+
+	<!-- EzToast -->
+	<script type="text/javascript" src="./js/eztoast.js"></script>
+	<!-- IndexJs -->
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

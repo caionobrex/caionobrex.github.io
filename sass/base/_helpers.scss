@@ -1,0 +1,11 @@
+.center {
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.hide { display: none !important; }
+
+@media #{$medium-and-down} {
+	.hide-on-med-down { display: none !important; }
+}

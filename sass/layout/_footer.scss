@@ -1,0 +1,35 @@
+.footer {
+	background-color: $primary-color;
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 4rem 8rem;
+
+		& h5 { margin-bottom: 0.8rem; }
+	}
+
+	&__list { display: flex; }
+
+	&__list-item {
+		font-size: 3rem;
+
+		& a { color: white; }
+
+		&:not(:last-child) { margin-right: 3rem; }
+	}
+
+	&__copyright {
+		background-color: $primary-color-darken-2;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		padding: 0.6rem 0;
+
+		& i { margin-right: 0.3rem; }
+	}
+}

@@ -1,0 +1,82 @@
+@keyframes toastAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(6rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fade {
+  animation: fade 0.2s ease-in-out;
+}
+
+.hide {
+  display: none !important;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.toast-list {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+}
+.toast-list li {
+  margin: 8px 0;
+}
+
+.toast {
+  position: relative;
+  width: 350px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: white;
+  z-index: 1500;
+  animation: toastAnimation 0.2s ease-in-out;
+  /* Elements that make part of the composition of this component */
+  /* Variations of this component */
+}
+.toast__close-btn {
+  position: absolute;
+  right: 1px;
+  top: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.toast__title {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+.toast__description {
+  font-size: 15px;
+  margin-top: 6px;
+  text-align: justify;
+}
+.toast--success {
+  background-color: #4caf50;
+}
+.toast--error {
+  background-color: #F44336;
+}
+
+/*# sourceMappingURL=toast.css.map */

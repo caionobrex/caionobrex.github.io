@@ -1,0 +1,27 @@
+.mobile-nav {
+	position: fixed;
+	top: 0;
+	left: -86%;
+	width: 85%;
+	height: 100%;
+	z-index: 1000;
+	padding: 4rem 2rem;
+	background-color: white;
+	box-shadow: 3px 0 3px $grey-lighten-3;
+	transition: all 0.2s ease-in;
+
+	&__close-btn {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.2rem;
+	}
+
+	&__list-item {
+		font-size: 1.6rem;
+		font-weight: 600;
+
+		& a { color: $grey-darken-4; }
+
+		&:not(:last-child) { margin-bottom: 2rem; }
+	}
+}
