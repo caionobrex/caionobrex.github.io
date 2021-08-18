@@ -51,6 +51,7 @@
 	}
 
 	&__right {
+		position: relative;
 		display: flex;
 		flex: 1;
 		height: 100%;
@@ -75,6 +76,12 @@
 			height: 160px;
 			z-index: 1000;
 			margin-top: -35px;
+		}
+
+		@media only screen and (min-width: 1367px) {
+			position: absolute;
+			left: 50%;
+			transform: translate(-10%);
 		}
 	}
 

@@ -21,6 +21,10 @@ body {
 	padding: 0 10rem;
 
 	@media #{$medium-and-down} { padding: 0; }
+
+	@media only screen and (min-width: 1367px) {
+		padding: 0 30rem;
+	}
 }
 
 a,
